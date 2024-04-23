@@ -8,5 +8,5 @@ else
     unlink bin/module/libchat_room.so
 fi
 
-cp sylar/bin/sylar bin/chat_room
+cp ynwad/bin/sylar bin/chat_room
 cp lib/libchat_room.so bin/module/
