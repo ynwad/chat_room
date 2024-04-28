@@ -42,7 +42,7 @@ set(LIB_SRC
 #PROTOBUF_GENERATE_CPP(PB_SRCS PB_HDRS sylar/test.proto)
 #list(APPEND LIB_SRC ${PB_SRCS})
 #
-#message(STATUS ${LIB_SRC})
+message("parent STATUS ${LIB_SRC}")
 
 add_library(chat_room SHARED ${LIB_SRC})
 force_redefine_file_macro_for_sources(chat_room)
